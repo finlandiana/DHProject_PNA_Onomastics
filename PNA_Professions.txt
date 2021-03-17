@@ -1,0 +1,55 @@
+								Architect                          Assyrian                              38                                        37 
+                                  Boatman                                   Builder 
+                                       10                                        15 
+                             Chief eunuch                       City mayor/overseer 
+                                        9                                       121 
+                   Cooks, bakers, brewers                Court and palace personnel 
+                                      135                                       129 
+                             Court member                              Craftspeople 
+                                      112                                       330 
+                                 Criminal                                 Cupbearer 
+                                       47                                        24 
+                        Delegate/emissary                                 Dependant 
+                                       26                                       606 
+                 Deportee/captive/refugee                          Enemy of Assyria 
+                                       60                                        35 
+                                Ethnicity                                    Eunuch 
+                                      258                                       112 
+                      Family relationship                                    Farmer 
+                                     2396                                        60 
+                                 Fugitive                                  Gardener 
+                                       22                                        32 
+                                 Governor                           Harem personnel 
+                                      144                                         7 
+                                  Harmaku              Herding and animal husbandry 
+                                        8                                        86 
+                   Horse and donkey carer                                 Hunduraiu 
+                                      131                                        35 
+                        Informant / agent                                     Judge 
+                                       41                                         9 
+                               Major-domo                           Member of elite 
+                                       20                                        37 
+                 Merchant or entrepreneur                                 Messenger 
+                                       88                                        56 
+                       Military personnel                        Non-Assyrian ruler 
+                                     1403                                       206 
+                                 Official                        Owners of property 
+                                      692                                       640 
+                                Physician                                   Prefect 
+                                       31                                        46 
+                             Prophet(ess)                           Scholar/diviner 
+                                       13                                       162 
+                                   Scribe                                   Servant 
+                                      485                                        90 
+                          Singer/musician                                     Slave 
+                                       26                                       430 
+                              Slave owner                               Subordinate 
+                                       42                                        29 
+                        Superior/overseer Temple personnel and cultic professionals 
+                                       62                                       302 
+                                Treasurer                         Tribe/clan member 
+                                       13                                        15 
+				Unknown or not applicable                 Village manager/inspector 
+                                     7116                                        52 
+               Vizier (also grand/second)                                    Worker 
+                                       12                                        25 
