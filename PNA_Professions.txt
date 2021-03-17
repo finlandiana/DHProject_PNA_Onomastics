@@ -1,4 +1,5 @@
-								Architect                          Assyrian                              38                                        37 
+				Architect                                  Assyrian                              
+				       38                                       37 
                                   Boatman                                   Builder 
                                        10                                        15 
                              Chief eunuch                       City mayor/overseer 
@@ -49,7 +50,7 @@
                                        62                                       302 
                                 Treasurer                         Tribe/clan member 
                                        13                                        15 
-				Unknown or not applicable                 Village manager/inspector 
+		Unknown or not applicable                 Village manager/inspector 
                                      7116                                        52 
                Vizier (also grand/second)                                    Worker 
                                        12                                        25 
