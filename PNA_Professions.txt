@@ -1,4 +1,6 @@
-				Architect                                  Assyrian                              
+				#As i abandoned this approach, there is not much use for this one...
+				
+				Architect                                  Assyrian    
 				       38                                       37 
                                   Boatman                                   Builder 
                                        10                                        15 
