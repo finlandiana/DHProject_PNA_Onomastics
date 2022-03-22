@@ -12,7 +12,7 @@ ggplot(Akk_Male_Names, aes(x = Time)) +
        title = "Nimien ajallinen jakauma") +
   coord_flip()
 
-#editing the time periods
+#editing the time periods into more even slots and removing the overlapping of slots... There probably would have been a cleaner way to do this...
 first_period <- c("704-681 Sennacherib", "699-600 7th century","680-631 Esarhaddon and/or Assurbanipal", "704-669 Sennacherib and/or Esarhaddon", "699-650 early 7th century", "680-669 Esarhaddon")
 new_1 <- "699-650"
 for (i in seq_along(Akk_Male_Names)) {
