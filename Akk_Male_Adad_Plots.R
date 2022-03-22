@@ -1,12 +1,14 @@
+#This is for doing the bar charts of quantities and percentages of the ditsribution of each theophoric element
+
 library(ggplot2)
 
 
-# plot the distribution of adad
+# plot the distribution of adad...This one made vertical bars which did not look as good as horizontal ones
 Adad_Names <- Akk_Male_Names[str_detect(Akk_Male_Names$Name, "Adad"), ] 
 ggplot(Adad_Names, aes(x = Time)) + 
   geom_bar()
 
-#plot the distribution of adad in percent
+#plot the distribution of adad in percentages and horizontally
 ggplot(Adad_Names, 
        aes(x = Time, 
            y = ..count.. / sum(..count..))) + 
@@ -17,11 +19,11 @@ ggplot(Adad_Names,
   scale_y_continuous(labels = scales::percent)+
   coord_flip()
 
-#horixzontal chart of Adad
+#horizontal chart of Adad quantity
 ggplot(Adad_Names, aes(x = Time)) + 
   geom_bar() +
   labs(x = "",
-       y = "Frequency",
+       y = "Quantity",
        title = "Theophoric element Adad") +
   coord_flip()
 
@@ -41,8 +43,8 @@ ggplot(Marduk_names,
 ggplot(Marduk_names, aes(x = Time)) + 
   geom_bar() +
   labs(x = "",
-       y = "Frequency",
-       title = "Frequency of Marduk") +
+       y = "Quantity",
+       title = "Quantity of Marduk") +
   coord_flip()
 
 #Nabu names
@@ -62,8 +64,8 @@ ggplot(Nabu_Names,
 ggplot(Nabu_Names, aes(x = Time)) + 
   geom_bar() +
   labs(x = "",
-       y = "Frequency",
-       title = "Frequency of Nabu") +
+       y = "Quantity",
+       title = "Quantity of Nabu") +
   coord_flip()
 
 
@@ -84,8 +86,8 @@ ggplot(Sin_Names,
 ggplot(Sin_Names, aes(x = Time)) + 
   geom_bar() +
   labs(x = "",
-       y = "Frequency",
-       title = "Frequency of Sin") +
+       y = "Quantity",
+       title = "Quantity of Sin") +
   coord_flip()
 
 
@@ -106,8 +108,8 @@ ggplot(Assur_names,
 ggplot(Assur_names, aes(x = Time)) + 
   geom_bar() +
   labs(x = "",
-       y = "Frequency",
-       title = "Frequency of Assur") +
+       y = "Quantity",
+       title = "Quantity of Assur") +
   coord_flip()
 
 #Bel names
@@ -126,8 +128,8 @@ ggplot(Bel_names,
 ggplot(Bel_names, aes(x = Time)) + 
   geom_bar() +
   labs(x = "",
-       y = "Frequency",
-       title = "Frequency of Bel") +
+       y = "Quantity",
+       title = "Quantity of Bel") +
   coord_flip()
 
 #Nergal names
@@ -147,8 +149,8 @@ ggplot(Nergal_names,
 ggplot(Nergal_names, aes(x = Time)) + 
   geom_bar() +
   labs(x = "",
-       y = "Frequency",
-       title = "Frequency of Nergal") +
+       y = "Quantity",
+       title = "Quantity of Nergal") +
   coord_flip()
 
 #Šamaš names
@@ -168,6 +170,6 @@ ggplot(Samas_names,
 ggplot(Samas_names, aes(x = Time)) + 
   geom_bar() +
   labs(x = "",
-       y = "Frequency",
-       title = "Frequency of Samas") +
+       y = "Quantity",
+       title = "Quantity of Samas") +
   coord_flip()
