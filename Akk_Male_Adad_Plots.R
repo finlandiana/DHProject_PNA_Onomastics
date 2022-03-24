@@ -16,6 +16,7 @@ ggplot(Adad_Names,
   labs(x = "Time", 
        y = "Percent", 
        title  = "Distribution of theophoric element Adad in different times") +
+  geom_bar(color="gray", fill=rgb(0.4,0.8,0.2,0.3) )+
   scale_y_continuous(labels = scales::percent)+
   coord_flip()
 
@@ -25,6 +26,7 @@ ggplot(Adad_Names, aes(x = Time)) +
   labs(x = "",
        y = "Quantity",
        title = "Theophoric element Adad") +
+  geom_bar(color="gray", fill=rgb(0.4,0.8,0.2,0.3) )+
   coord_flip()
 
 #Horizontal chart of Marduk-Time
@@ -36,6 +38,7 @@ ggplot(Marduk_names,
   labs(x = "Time", 
        y = "Percent", 
        title  = "Distribution of theophoric element Marduk in different times") +
+  geom_bar(color="gray", fill=rgb(0.3,0.7,0.4,0.3) )+
   scale_y_continuous(labels = scales::percent)+
   coord_flip()
 
@@ -45,9 +48,10 @@ ggplot(Marduk_names, aes(x = Time)) +
   labs(x = "",
        y = "Quantity",
        title = "Quantity of Marduk") +
+  geom_bar(color="gray", fill=rgb(0.3,0.7,0.4,0.3) )+
   coord_flip()
 
-#Nabu names
+#Nabû names
 Nabu_Names <- Akk_Male_Names[str_detect(Akk_Male_Names$Name, "Nabû"), ] 
 
 ggplot(Nabu_Names, 
@@ -56,7 +60,8 @@ ggplot(Nabu_Names,
   geom_bar() +
   labs(x = "Time", 
        y = "Percent", 
-       title  = "Distribution of theophoric element Nabu in different times") +
+       title  = "Distribution of theophoric element Nabû in different times") +
+   geom_bar(color="gray", fill=rgb(0.2,0.5,0.7,0.9) )+
   scale_y_continuous(labels = scales::percent)+
   coord_flip()
 
@@ -65,11 +70,12 @@ ggplot(Nabu_Names, aes(x = Time)) +
   geom_bar() +
   labs(x = "",
        y = "Quantity",
-       title = "Quantity of Nabu") +
+       title = "Quantity of Nabû") +
+   geom_bar(color="gray", fill=rgb(0.2,0.5,0.7,0.9) )+
   coord_flip()
 
 
-#Sin names
+#Sīn names
 Sin_Names <- Akk_Male_Names[str_detect(Akk_Male_Names$Name, "Sīn"), ]
 
 ggplot(Sin_Names, 
@@ -78,7 +84,8 @@ ggplot(Sin_Names,
   geom_bar() +
   labs(x = "Time", 
        y = "Percent", 
-       title  = "Distribution of theophoric element Sin in different times") +
+       title  = "Distribution of theophoric element Sīn in different times") +
+  geom_bar(color="gray", fill=rgb(0.9,0.4,0.4,0.9) )+
   scale_y_continuous(labels = scales::percent)+
   coord_flip()
 
@@ -87,11 +94,12 @@ ggplot(Sin_Names, aes(x = Time)) +
   geom_bar() +
   labs(x = "",
        y = "Quantity",
-       title = "Quantity of Sin") +
+       title = "Quantity of Sīn") +
+  geom_bar(color="gray", fill=rgb(0.9,0.4,0.4,0.9) )+
   coord_flip()
 
 
-#Assur names
+#Aššūr names
 Assur_names <- Akk_Male_Names[str_detect(Akk_Male_Names$Name, "Aššūr"),]
 
 ggplot(Assur_names, 
@@ -100,7 +108,8 @@ ggplot(Assur_names,
   geom_bar() +
   labs(x = "Time", 
        y = "Percent", 
-       title  = "Distribution of theophoric element Assur in different times") +
+       title  = "Distribution of theophoric element Aššūr in different times") +
+  geom_bar(color="gray", fill=rgb(0.9,0.8,0.4,0.9) )+
   scale_y_continuous(labels = scales::percent)+
   coord_flip()
 
@@ -109,10 +118,11 @@ ggplot(Assur_names, aes(x = Time)) +
   geom_bar() +
   labs(x = "",
        y = "Quantity",
-       title = "Quantity of Assur") +
+       title = "Quantity of Aššūr") +
+  geom_bar(color="gray", fill=rgb(0.9,0.8,0.4,0.9) )+
   coord_flip()
 
-#Bel names
+#Bēl names
 Bel_names <- Akk_Male_Names[str_detect(Akk_Male_Names$Name, "Bēl"),]
 ggplot(Bel_names, 
        aes(x = Time, 
@@ -120,7 +130,8 @@ ggplot(Bel_names,
   geom_bar() +
   labs(x = "Time", 
        y = "Percent", 
-       title  = "Distribution of theophoric element Bel in different times") +
+       title  = "Distribution of theophoric element Bēl in different times") +
+  geom_bar(color="gray", fill=rgb(0.8,0.4,0.6,0.9) )+
   scale_y_continuous(labels = scales::percent)+
   coord_flip()
 
@@ -129,7 +140,8 @@ ggplot(Bel_names, aes(x = Time)) +
   geom_bar() +
   labs(x = "",
        y = "Quantity",
-       title = "Quantity of Bel") +
+       title = "Quantity of Bēl") +
+  geom_bar(color="gray", fill=rgb(0.8,0.4,0.6,0.9) )+
   coord_flip()
 
 #Nergal names
@@ -144,6 +156,7 @@ ggplot(Nergal_names,
        y = "Percent", 
        title  = "Distribution of theophoric element Nergal in different times") +
   scale_y_continuous(labels = scales::percent)+
+  geom_bar(color="gray", fill=rgb(0.6,0.6,0.2,0.9) )+
   coord_flip()
 
 ggplot(Nergal_names, aes(x = Time)) + 
@@ -151,6 +164,7 @@ ggplot(Nergal_names, aes(x = Time)) +
   labs(x = "",
        y = "Quantity",
        title = "Quantity of Nergal") +
+  geom_bar(color="gray", fill=rgb(0.6,0.6,0.2,0.9) )+
   coord_flip()
 
 #Šamaš names
@@ -163,7 +177,8 @@ ggplot(Samas_names,
   geom_bar() +
   labs(x = "Time", 
        y = "Percent", 
-       title  = "Distribution of theophoric element Samas in different times") +
+       title  = "Distribution of theophoric element Šamaš in different times") +
+  geom_bar(color="gray", fill=rgb(0.7,0.6,0.9,0.9) )+
   scale_y_continuous(labels = scales::percent)+
   coord_flip()
 
@@ -171,5 +186,6 @@ ggplot(Samas_names, aes(x = Time)) +
   geom_bar() +
   labs(x = "",
        y = "Quantity",
-       title = "Quantity of Samas") +
+       title = "Quantity of Šamaš") +
+  geom_bar(color="gray", fill=rgb(0.7,0.6,0.9,0.9) )+
   coord_flip()
